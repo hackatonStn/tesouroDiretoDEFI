@@ -1,0 +1,39 @@
+{
+    "name": "Tesouro Direto DeFi",
+    "short_name": "Tesouro DeFi",
+    "description": "Tesouro Direto DeFi é um aplicativo que permite a compra e venda de títulos públicos do Tesouro Direto utilizando criptomoedas.",
+    "theme_color": "#570DF8",
+    "background_color": "#1f1f1f",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+    ]
+}

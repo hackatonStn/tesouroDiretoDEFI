@@ -1,0 +1,35 @@
+version: "3.0"
+
+services:
+  mongo_rodada1:
+    container_name: mongo_hackaton
+    image: mongo
+    hostname: mongo_hackaton
+    restart: always
+    environment:
+      - TZ=America/Sao_Paulo
+    ports:
+      - "50001:50001"
+    # mem_limit: 1500m
+    volumes:
+      - /codingone/hackaton/volumes/mongodb/data:/data/db
+      - /codingone/hackaton/volumes/mongodb/backup:/backup
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "10"
+    network_mode: "host"
+
+    entrypoint:
+      [
+        "/usr/bin/mongod",
+        "--auth",
+        "--bind_ip_all",
+        "--port",
+        "50001",
+        "--wiredTigerCacheSizeGB",
+        "1",
+      ]
+
+  

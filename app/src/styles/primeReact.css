@@ -1,0 +1,221 @@
+.p-dialog-footer{
+    @apply pb-2
+}
+
+.p-dialog{
+    z-index: 1000000;
+    @apply p-0  
+    
+    
+}
+.p-dialog .p-dialog-content {
+    background: #ffffff;
+    color: #495057;
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+
+
+[data-theme="dark"] .p-dialog .p-dialog-content {
+   @apply p-0 md:p-2   bg-base-400 text-inherit
+}
+
+[data-theme="light"] .p-dialog .p-dialog-content {
+   @apply p-0 md:p-2   bg-gray-200
+}
+
+
+.p-dialog.no-padding-content .p-dialog-content  {
+   @apply p-0 
+}
+
+.p-dialog .p-dialog-header {
+    @apply pb-0    px-0 pt-0 
+}
+
+.p-dialog.no-padding-header .p-dialog-header  {
+   @apply p-0 
+}
+
+
+.p-dialog .p-dialog-footer {
+    @apply pb-0 pt-0 px-0  bg-base-300
+}
+
+.p-dialog.no-padding-footer .p-dialog-footer  {
+   @apply p-0
+}
+
+
+
+.p-dialog .p-dialog-header .p-dialog-title {
+@apply   text-inherit
+}
+
+.p-dialog.confirm-center {
+@apply pr-3 pb-3 ml-2
+
+}
+
+/* POPUP CONFIRM */
+.p-confirm-popup {
+    @apply bg-base-400 text-inherit
+}
+
+
+.p-confirm-popup .p-confirm-popup-footer button:last-child {
+    @apply btn-secondary
+}
+
+.p-button.p-button-text {
+    @apply text-inherit
+}
+/* FIM */
+
+
+
+.p-fieldset .p-fieldset-legend {
+    @apply m-2 h-7 py-1 px-1 bg-transparent border-2 border-gray-200 rounded-md
+
+}
+
+.p-fieldset .p-fieldset-content {
+    @apply p-0 m-0 bg-transparent
+}
+.p-fieldset {
+    @apply bg-transparent
+}
+
+.p-menu .p-menuitem-link {
+   @apply pb-3 pt-0 text-sm md:pt-3 
+   
+}
+
+.p-menu .p-submenu-header {
+   @apply bg-gray-100 pb-1 mb-1 pt-1
+}
+
+
+
+.p-overlaypanel:before {
+    @apply border-8  
+}
+
+/* Accordion */
+.p-accordion .p-accordion-content {
+    @apply px-0.5 bg-base-400 text-inherit
+}
+.p-accordion .p-accordion-header .p-accordion-header-link {
+    @apply text-inherit
+ }
+
+ .p-accordion-header-text {
+    @apply w-full
+}
+.p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link {
+    @apply bg-transparent w-full p-0 border-base-300 ; 
+}
+.p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon.hidden-icon {
+    @apply hidden
+}
+.p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link {
+   @apply bg-base-400 text-inherit border-base-300
+}
+
+
+/* FIM */
+
+.p-overlaypanel .p-overlaypanel-content {
+    @apply p-1 
+}
+
+.p-overlaypanel {
+    @apply text-inherit m-2
+}
+
+.p-overlaypanel .p-overlaypanel-close {
+  @apply bg-secondary
+}
+
+.p-dropdown {
+    @apply bg-transparent text-inherit text-xs
+}
+.p-dropdown-panel {
+    @apply bg-gray-300 
+}
+
+.p-inputtext {
+    @apply bg-gray-300  p-1
+}
+
+/* .input-transparent .p-inputtext{
+    @apply bg-transparent p-1 text-3xl
+}
+
+.input-transparent .p-inputtext{
+    @apply bg-base-300 p-1 text-2xl border-0
+}
+.input-transparent .p-dropdown-trigger{
+    @apply bg-base-300 p-1 text-2xl border-0
+}
+
+.input-transparent .p-dropdown-item{
+    @apply bg-base-300 p-1 text-2xl border-0
+} */
+
+.input-lg .p-inputtext{
+    @apply  p-1 text-3xl border-0
+}
+
+.input-md .p-inputtext{
+    @apply  p-1 text-2xl border-0
+}
+
+.dropdown-md .p-dropdown{
+    @apply  p-1  border-0
+}
+.dropdown-lg .p-dropdown{
+    @apply  p-1  border-0 text-2xl
+}
+.input-transparent * {
+    @apply bg-transparent text-neutral
+}
+
+.p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link{
+    @apply bg-base-400 text-inherit border-base-300 outline-none 
+}
+
+
+.p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link {
+    @apply border-0 text-white bg-base-300
+}
+
+
+/* .virtualscroller-demo .scroll-item {
+    display: flex;
+    align-items: center;
+}
+
+.virtualscroller-demo .custom-scroll-item {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.virtualscroller-demo .odd {
+    background-color: var(--surface-b);
+}
+
+.virtualscroller-demo .p-virtualscroller {
+    height: 200px;
+    width: 200px;
+    border: 1px solid var(--surface-d);
+}
+
+.virtualscroller-demo .p-horizontal-scroll .p-virtualscroller-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.virtualscroller-demo .p-horizontal-scroll .scroll-item {
+    writing-mode: vertical-lr;
+} */

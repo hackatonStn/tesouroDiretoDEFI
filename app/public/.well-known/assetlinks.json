@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "app.run.a.vprot5_pwa___portal_5vgk5jahia_rj.twa",
+                     "sha256_cert_fingerprints": ["CA:EF:99:10:89:96:D5:4D:F8:0D:43:6A:3A:C9:8C:49:32:E2:60:84:B1:78:16:3E:AF:68:65:E7:0E:E8:AD:50"] }
+      }
+]
