@@ -85,6 +85,8 @@ A interface possui duas vesões:
 
 ![](gpt.png)
 
+![](saque.png)
+
 - **AVANÇADA** para aqueles que já dominam a tecnologia.
 
 ![](swap.png)
