@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import * as readline from "readline";
 
 async function main() {
-	let openai = new OpenAI({ apiKey: "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" });
+	let openai = new OpenAI({ apiKey: "" });
 	let assistant = await openai.beta.assistants.retrieve("asst_3w3gmPvNIhu7TectXbKDgS6f");
 	let thread = await openai.beta.threads.create(); //thread_7gd2d2b1ZyMdE3H0RazbOVpu
 	let chat = "";

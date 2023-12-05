@@ -20,7 +20,7 @@ class Chat extends React.Component<ChatProps, ChatState> {
 	static contextType = SiteContext;
 	context: React.ContextType<typeof SiteContext>;
 
-	openai = new OpenAI({ apiKey: "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", dangerouslyAllowBrowser: true });
+	openai = new OpenAI({ apiKey: "", dangerouslyAllowBrowser: true });
 	assistant: OpenAI.Beta.Assistants.Assistant;
 	thread: OpenAI.Beta.Threads.Thread;
 	myDiv: any = React.createRef() || null;
