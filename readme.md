@@ -80,13 +80,16 @@ Principais funcionalidades do TesouroDireto.sol:
     function getPool(uint256 poolId) external view returns (LiquidityPool memory);
     
 ```
-A interface possui duas modalidades:
- - Simplificada atrás da consultoria do chatGPT
- - Avançada para aqueles que já dominam a tecnologia
+A interface possui duas vesões:
+ - **SIMPLES** atráves da consultoria do chatGPT. O assistente te auxilia na instalação do Metamask, transferência de Real tokenizado de Bancos para a plataforma do Tesouro Direto e realiza as operções de simulação, compra e venda.
 
 ![](gpt.png)
 
+- **AVANÇADA** para aqueles que já dominam a tecnologia.
+
 ![](swap.png)
+
+![](pool-liquidez.png)
 
 ## Requisitos de rede
 - Wallet MetaMask com saldo de MATIC na rede Polygon (Mumbai TestNet).
