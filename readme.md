@@ -114,4 +114,7 @@ Este repositório contém as seguintes pastas:
 [Slides da apresentação](https://drive.google.com/file/d/1Ym5iXl-FNM-gTRzCkwItFB5TG1S0Z-8d/view?usp=sharing)
 
 ## Link da aplicação
+[Clique aqui para acessar o app](http://35.198.48.79/)
+
+Assim que conectar a primeira vez com sua carteira, receberá R$1000,00 de reais tokenizado na conta do BB, para fins de teste. É necessário um saldo mínimo de MATIC.
 
