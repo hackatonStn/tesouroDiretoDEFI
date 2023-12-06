@@ -111,7 +111,7 @@ Este repositório contém as seguintes pastas:
 
 ## Apresentação da proposta
 
-[Slides da apresentação](tesouroDefi.pdf)
+[Slides da apresentação](https://drive.google.com/file/d/1Ym5iXl-FNM-gTRzCkwItFB5TG1S0Z-8d/view?usp=sharing)
 
 ## Link da aplicação
 
