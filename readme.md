@@ -9,7 +9,7 @@ Equipe:
 O "Tesouro Direto DeFi" é um sistema inovador que oferece uma interface amigável para usuários leigos, com a opção de utilizar uma interface avançada. Utiliza o ChatGPT para orientar os usuários na escolha e investimento em títulos do tesouro direto tokenizados.
 Foi feito o deploy na **Polygon Mumbai** (testNet).
 
-[![Assista a apresentação](youtube.png)](https://youtu.be/vt5fpE0bzSY)
+[![Assista a apresentação](youtube.png)](https://www.youtube.com/watch?v=iosVFWmG7zk)
 
 ## Arquitetura
 
