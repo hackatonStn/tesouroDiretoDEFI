@@ -1,15 +1,9 @@
-# Tesouro Direto DeFi -
+# Tesouro Direto DeFi - Hackathon Web3 Tokenização do Tesouro Nacional
 Equipe: 
 - Daniel Francisco dos Santos e Silva (Líder)
 - Sabrina Kodjaoglanian
 
-## Estrutura do Projeto
-Este repositório contém as seguintes pastas:
-
-- `backend`: Código-fonte do backend.
-- `contracts`: Smart contracts utilizados no projeto.
-- `infra`: Configurações do MongoDB.
-- `app`: Aplicativo front-end.
+**Desafio 1:** Desenvolvimento de tecnologias para casos de uso utilizando títulos públicos tokenizados para aplicações em: Tesouro Direto e Mercado Secundário. Com a finalidade de incentivar a massificação, adoção e uso dos títulos, por investidores no Brasil e/ou no Exterior, prestigiando fácil acesso e a usabilidade das ferramentas.
 
 ## Sobre o Sistema
 O "Tesouro Direto DeFi" é um sistema inovador que oferece uma interface amigável para usuários leigos, com a opção de utilizar uma interface avançada. Utiliza o ChatGPT para orientar os usuários na escolha e investimento em títulos do tesouro direto tokenizados.
@@ -106,6 +100,14 @@ A interface possui duas vesões:
 
 ## Requisitos de rede
 - Wallet MetaMask com saldo de MATIC na rede Polygon (Mumbai TestNet).
+
+## Estrutura do Projeto
+Este repositório contém as seguintes pastas:
+
+- `backend`: Código-fonte do backend.
+- `contracts`: Smart contracts utilizados no projeto.
+- `infra`: Configurações do MongoDB.
+- `app`: Aplicativo front-end.
 
 ## Apresentação da proposta
 
