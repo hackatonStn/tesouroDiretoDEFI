@@ -99,5 +99,13 @@ A interface possui duas vesões:
 ## Dicas para Usar MetaMask
 Para novos usuários, é recomendado assistir ao vídeo tutorial sobre o uso do MetaMask disponível em [este link](https://www.youtube.com/watch?v=y2ffxrkcaQ4).
 
+## Apresentação da proposta
+
+[![Assista a apresentação](youtube.png)](https://youtu.be/vt5fpE0bzSY)
+
+
+
+[Slides da apresentação](tesouroDefi.pdf)
+
 ## Link da aplicação
 
