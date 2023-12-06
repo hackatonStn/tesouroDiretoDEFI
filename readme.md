@@ -13,9 +13,11 @@ Este repositório contém as seguintes pastas:
 
 ## Sobre o Sistema
 O "Tesouro Direto DeFi" é um sistema inovador que oferece uma interface amigável para usuários leigos, com a opção de utilizar uma interface avançada. Utiliza o ChatGPT para orientar os usuários na escolha e investimento em títulos do tesouro direto tokenizados.
+Foi feito o deploy na **Polygon Mumbai** (testNet).
+
+[![Assista a apresentação](youtube.png)](https://youtu.be/vt5fpE0bzSY)
 
 ## Arquitetura
-Foi feito o deploy na Polygon Mumbai (testNet).
 
 Foram implementados as especificações do DREX para total compatibilidade:
 - CBDCAccessControl.sol
@@ -28,6 +30,14 @@ Foram implementados as especificações do DREX para total compatibilidade:
 
 ### Contrato principal
 -  TesouroDireto.sol (0x49C44d6ADE1c5e7733C8B60E892945A5c08dC2B6)
+     
+
+![](arquitetura.png)
+[Assista sobre a arquitetura](https://youtu.be/fCVa9RbYejA)
+
+
+
+
 
 O contrato que faz a integração entre o TPFt e RealTokenizado. Este contrato interage principalmente com o TPFt, que é o responsavel por fazer o mint dos tokens.
 
@@ -80,6 +90,7 @@ Principais funcionalidades do TesouroDireto.sol:
     function getPool(uint256 poolId) external view returns (LiquidityPool memory);
     
 ```
+## Screenshots
 A interface possui duas vesões:
  - **SIMPLES** atráves da consultoria do chatGPT. O assistente te auxilia na instalação do Metamask, transferência de Real tokenizado de Bancos para a plataforma do Tesouro Direto e realiza as operções de simulação, compra e venda.
 
@@ -96,14 +107,7 @@ A interface possui duas vesões:
 ## Requisitos de rede
 - Wallet MetaMask com saldo de MATIC na rede Polygon (Mumbai TestNet).
 
-## Dicas para Usar MetaMask
-Para novos usuários, é recomendado assistir ao vídeo tutorial sobre o uso do MetaMask disponível em [este link](https://www.youtube.com/watch?v=y2ffxrkcaQ4).
-
 ## Apresentação da proposta
-
-[![Assista a apresentação](youtube.png)](https://youtu.be/vt5fpE0bzSY)
-
-
 
 [Slides da apresentação](tesouroDefi.pdf)
 
